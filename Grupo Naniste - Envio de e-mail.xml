@@ -1,0 +1,59 @@
+				Grupo Naniste
+
+Nome: 	Francisco A Eloy Jr 			- 62554
+		Gustavo Locatelli Correia 		- 63674
+		Guilherme Estrela do Nascimento - 64705
+		Eder Catini						- 63009
+		Jeovani Thomazini				- 62856
+		Marcel de Menezes Araujo		- 63613
+		Felipe Pereira					- 62814
+		João Luiz Lorencetti			- 62704
+		
+
+Serviço de envio de email
+
+[Matler]
+* enviar e-mail	
+  url: [url-app]/email/send	
+  parâmetros: destinatário, remetente, assunto e mensagem.
+  Operação: POST
+  Formato de mensagem: text/XML ou application/XML.
+  
+  [Estruturas]
+  Requisição:
+  
+  <request>
+	<destinatario></destinatario>
+	<remetente></remetente>
+	<assunto></assunto>
+	<mensagem></mensagem>
+  </request>
+  
+  Resposta:
+  
+  <response>
+	<status-code></status-code>
+	<status-message></status-message>
+  </response>
+  
+  Códigos de Erro:
+  0 - Sucesso.
+  1 - E-mail inválido.
+  2 - E-mail vazio.
+  3 - Envio não autorizado (blacklist).
+  4 - Mensagem vazia.
+  5 - Erro de sistema.
+  
+  friendly-url (url amigáveis)
+  front controller (direcionar as requisições)
+  validação de mensagem
+  validação dos campos
+  função apra envio do e-mail
+  construção da resposta baseado no status
+  
+  
+  
+  
+  
+  
+  
